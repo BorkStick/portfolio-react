@@ -1,13 +1,15 @@
 import React from 'react'
 import Nav from './Nav'
 import Title from './Title'
+import ProjectSection from './ProjectSection'
+
 
 const Home = () => {
     return (
         <div>
             <Nav />
-            <h1>Home</h1>
             <Title />
+            <ProjectSection />
         </div>
     )
 }

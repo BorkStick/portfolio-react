@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import test from '../assets/img/borkstick300.gif';
 
 
 const Title = () => {
@@ -11,7 +12,7 @@ const Title = () => {
     </div>
     <div class="container-fluid" id="home">
       <div class="row">
-        <img src='../assets/img/borkstick300.gif' alt='' class="col" />
+        <img src={test} alt='' class="col" />
         <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem,
           reiciendis officia natus animi, esse, sunt quidem eos est adipisci tenetur quaerat repellat ipsa enim qui
           ratione? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nihil ratione nisi excepturi animi
