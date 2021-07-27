@@ -1,15 +1,13 @@
 import React from 'react'
 import Nav from './Nav'
 
-const Projects = () => {
+const Contact = () => {
     return (
         <div>
             <Nav />
-            <h1>
-                Projects
-            </h1>
+            <h1>Contact</h1>
         </div>
     )
 }
 
-export default Projects
+export default Contact
