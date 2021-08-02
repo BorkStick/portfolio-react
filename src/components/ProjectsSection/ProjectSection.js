@@ -1,14 +1,46 @@
 import React from 'react'
+import './ProjectSection.css'
+import Project from '../Project/Project'
+import succulentimg from '../../assets/img/projects/succulent.png';
+import tipimg from '../../assets/img/projects/tip-calculator.png';
+import todoimg from '../../assets/img/projects/todo-list.gif';
+
 
 
 const ProjectSection = () => {
     return (
-        <div className="container p-5 bg-dark text-light">
-           
-            <h1 className="text-center">
-                Project Section
-            </h1>
+        <section>
+        <div className="container-fluid text-center bg-dark text-white py-2" id="projects">
+          <h1 className="">PROJECTS</h1>
+          
         </div>
+        <div className="container py-5  ">
+          
+          
+          
+          <div className="row">
+            <div className="card col" >
+                <Project 
+                img={succulentimg}
+                title="succulent"
+                />
+            </div>
+            <div className="card col">
+            <Project 
+                img={tipimg}
+                title="tip calculator"
+                />
+            </div>
+            <div className="card col">
+            <Project 
+                img={todoimg}
+                title="todo list"
+                />
+            </div>
+          </div>
+
+        </div>
+      </section>
     )
 }
 

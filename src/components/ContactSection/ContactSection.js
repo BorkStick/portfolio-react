@@ -1,10 +1,12 @@
 import React from 'react';
+import './ContactSection.css'
+
 
 
 
 const ContactSection = () => {
     return (
-        <div className="container">
+        <div className="">
             <section>
     <div className="container-fluid text-center bg-danger" id="contact">
       <h1 className="">Contact</h1>
