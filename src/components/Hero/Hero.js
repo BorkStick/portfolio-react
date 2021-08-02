@@ -1,8 +1,8 @@
 import React from 'react';
-import test from '../assets/img/borkstick300.gif';
+import test from '../../assets/img/borkstick300.gif';
 
 
-const Title = () => {
+const Hero = () => {
     return (
         <div className="container">
           <section>
@@ -25,4 +25,4 @@ const Title = () => {
     )
 }
 
-export default Title
+export default Hero
