@@ -4,6 +4,8 @@ import Project from '../Project/Project'
 import succulentimg from '../../assets/img/projects/succulent.png';
 import tipimg from '../../assets/img/projects/tip-calculator.png';
 import todoimg from '../../assets/img/projects/todo-list.gif';
+import data from '../../data/data';
+
 
 
 
@@ -22,7 +24,7 @@ const ProjectSection = () => {
             <div className="card col" >
                 <Project 
                 img={succulentimg}
-                title="succulent"
+                title="succulant"
                 />
             </div>
             <div className="card col">
