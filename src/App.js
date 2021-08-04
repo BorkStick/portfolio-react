@@ -7,14 +7,15 @@ import data from './data/data';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Switch>
-      <Route component={Home} path='/' exact />
-      <Route component={About} path='/about' />
-      <Route component={Projects} path='/projects' />
-      <Route component={Contact} path='/contact' />
-    </Switch>
-    </BrowserRouter>
+    // <BrowserRouter>
+    // <Switch>
+    //   <Route component={Home} path='/' exact />
+    //   <Route component={About} path='/about' />
+    //   <Route component={Projects} path='/projects' />
+    //   <Route component={Contact} path='/contact' />
+    // </Switch>
+    // </BrowserRouter>
+    <Home />
     
   )
 }
