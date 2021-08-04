@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.0161bbe8.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.45ad706b.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.45ad706b.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.b0e620e1.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.b0e620e1.js.map",
+    "static/js/2.eea52df8.chunk.js": "/portfolio-react/static/js/2.eea52df8.chunk.js",
+    "static/js/2.eea52df8.chunk.js.map": "/portfolio-react/static/js/2.eea52df8.chunk.js.map",
+    "static/js/3.c289da37.chunk.js": "/portfolio-react/static/js/3.c289da37.chunk.js",
+    "static/js/3.c289da37.chunk.js.map": "/portfolio-react/static/js/3.c289da37.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.0161bbe8.chunk.css.map": "/portfolio-react/static/css/main.0161bbe8.chunk.css.map",
+    "static/js/2.eea52df8.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.eea52df8.chunk.js.LICENSE.txt",
+    "static/media/CSS3_logo_and_wordmark.5da907d7.svg": "/portfolio-react/static/media/CSS3_logo_and_wordmark.5da907d7.svg",
+    "static/media/HTML5_logo_and_wordmark.aff8a9cb.svg": "/portfolio-react/static/media/HTML5_logo_and_wordmark.aff8a9cb.svg",
+    "static/media/Javascript_badge.e5c417b3.svg": "/portfolio-react/static/media/Javascript_badge.e5c417b3.svg",
+    "static/media/borkstick300.4ba769ed.gif": "/portfolio-react/static/media/borkstick300.4ba769ed.gif",
+    "static/media/succulent.45c59964.png": "/portfolio-react/static/media/succulent.45c59964.png",
+    "static/media/tip-calculator.452b302d.png": "/portfolio-react/static/media/tip-calculator.452b302d.png",
+    "static/media/todo-list.19a734db.gif": "/portfolio-react/static/media/todo-list.19a734db.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0e620e1.js",
+    "static/js/2.eea52df8.chunk.js",
+    "static/css/main.0161bbe8.chunk.css",
+    "static/js/main.45ad706b.chunk.js"
+  ]
+}
