@@ -13,7 +13,7 @@ const ProjectSection = () => {
     return (
         <section>
         <div className="container-fluid text-center bg-dark text-white py-2" id="projects">
-          <h1 className="">PROJECTS</h1>
+          <h1 className="section-headline">PROJECTS</h1>
           
         </div>
         <div className="container py-5  ">

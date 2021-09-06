@@ -11,7 +11,7 @@ const SkillsSection = () => {
     return (
         <div className="">
               <div className="text-white" id="skills">
-      <h1 className="text-center">SKILLS</h1>
+      <h1 className="text-center section-headline">SKILLS</h1>
       <div className="row text-center">
 </div>
 

@@ -4,7 +4,7 @@ import './Project.css'
 const Project = ({title, description, img}) => {
     return (
       
-        <div className="row text-center" id="project">
+        <div className="row text-center section-label" id="project">
                 
                 <img src={img} alt="image here" />
                 <h5>{title}</h5>

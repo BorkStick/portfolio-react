@@ -8,8 +8,8 @@ const ContactSection = () => {
     return (
         <div className="">
             <section>
-    <div className="container-fluid text-center bg-danger" id="contact">
-      <h1 className="">Contact</h1>
+    <div className="container-fluid text-center" id="contact">
+      <h1 className="section-headline">Contact</h1>
       <form className="px-5">
         <div className="form-group">
           <label for="exampleFormControlInput1">Email address</label>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Header/Header'
+import Nav from '../components/Header/Header'
 
 const Projects = () => {
     return (

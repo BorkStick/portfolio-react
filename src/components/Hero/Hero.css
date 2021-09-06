@@ -1,0 +1,9 @@
+body {
+    background-color: #262626;
+    color: #fff;
+}
+
+#hero-img {
+    border: #fff solid 2px;
+    width: 100%;
+}
