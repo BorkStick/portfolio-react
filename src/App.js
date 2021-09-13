@@ -1,22 +1,32 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Projects from "./pages/Projects.jsx";
+import ProjectsPage from "./pages/ProjectsPage.jsx";
 import Contact from "./pages/Contact.jsx";
+import Projects from "./components/Projects/Projects";
+import Nav from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <React.StrictMode>
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
         <Switch>
-          <Route component={Home} path="/" exact />
+          <Route component={Home} exact path="/"  />
           <Route component={About} path="/about" />
-          <Route component={Projects} path="/projects" />
+          <Route component={ProjectsPage} exact path="/projects" />
           <Route component={Contact} path="/contact" />
+          <Route
+            path="/projects/:slug"
+            exact
+            render={(props) => (<Projects slug={props.match.params.slug} />)}
+          />
         </Switch>
-      </BrowserRouter>
-    </React.StrictMode>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,10 +1,9 @@
 import React from "react";
-import Nav from "../components/Header/Header";
 
 const Contact = () => {
   return (
     <div>
-      <Nav />
+     
       <div className="row">
         <div className="col">
           <h1>Contact Me</h1>

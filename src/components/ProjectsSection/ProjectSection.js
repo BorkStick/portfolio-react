@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectSection.css";
-import Project from "../Project/Project";
+import Project from "../Projects/Projects";
 import succulentimg from "../../assets/img/projects/succulent.png";
 import tipimg from "../../assets/img/projects/tip-calculator.png";
 import todoimg from "../../assets/img/projects/todo-list.gif";

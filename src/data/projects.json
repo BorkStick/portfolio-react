@@ -1,13 +1,44 @@
 {
   "projects": [
     {
-      "id": 0,
+      "id": 1,
       "title": "Project 1",
-      "description": "Lorem Ipsum",
-      "image": "/images/1.png",
+      "slug": "project-1",
+      "description": "A basic HTML landing page for use for my portfolio",
+      "image": "../../src/assets/img/projects/succulent.png",
       "tags": ["HTML", "CSS", "JavaScript"],
-      "source": "https://google.com",
-      "visit": "https://google.com"
+      "code": "https://github.com/BorkStick/succulent-page",
+      "demo": "https://borkstick.github.io/succulent-page/"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "slug": "project-2",
+      "description": "Lorem Ipsum",
+      "image": "https://picsum.photos/500",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "code": "https://google.com",
+      "demo": "https://google.com"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "slug": "project-3",
+      "description": "Lorem Ipsum",
+      "image": "https://picsum.photos/500",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "code": "https://google.com",
+      "demo": "https://google.com"
+    },
+    {
+      "id": 4,
+      "title": "Project 4",
+      "slug": "project-4",
+      "description": "Lorem Ipsum",
+      "image": "https://picsum.photos/500",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "code": "https://google.com",
+      "demo": "https://google.com"
     }
   ]
 }
