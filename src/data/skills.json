@@ -1,0 +1,22 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "title": "HTML",
+      "description": "Lorem Ipsum",
+      "image": "/images/1.png"
+    },
+    {
+      "id": 0,
+      "title": "CSS",
+      "description": "Lorem Ipsum",
+      "image": "/images/1.png"
+    },
+    {
+      "id": 0,
+      "title": "JavaScript",
+      "description": "Lorem Ipsum",
+      "image": "/images/1.png"
+    }
+  ]
+}

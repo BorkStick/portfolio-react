@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Project 1",
+      "description": "Lorem Ipsum",
+      "image": "/images/1.png",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "source": "https://google.com",
+      "visit": "https://google.com"
+    }
+  ]
+}
