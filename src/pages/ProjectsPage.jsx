@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectPage() {
   return (
-    <div className="container">
+    <div className="container text-center">
       <h1>Projects</h1>
       <div className="container justify-content-center">
         <div className="row ">
@@ -19,10 +19,10 @@ export default function ProjectPage() {
           
 
           return (
-            <div key={key}>
+            <div key={key} className="pb-4">
               <Link
                 to={`/projects/${data.slug}`}
-                className=""
+                className="unstyled"
                 id="product-grid-link"
               >
                 <div className="card">
@@ -33,7 +33,7 @@ export default function ProjectPage() {
                     id="product-grid-img"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">{data.title}</h5>
+                    <h2 className="card-title">{data.title}</h2>
                   </div>
                 </div>
               </Link>

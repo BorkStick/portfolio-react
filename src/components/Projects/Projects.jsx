@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-// import "./Projects.css";
+import "./Projects.css";
 import data from "../../data/projects.json";
+import {projects} from "../../data/projects.json";
 
 export default class Projects extends Component {
   
@@ -8,12 +9,13 @@ export default class Projects extends Component {
   render() {
     const project = data.projects.find((p) => p.slug === this.props.slug);
 
+    
     return (
       <div className="container">
        
 
-        <div className="container">
-          <h1>{project.title}</h1>
+        <div className="container pt-4">
+          <h1 className="text-center">{project.title}</h1>
         </div>
 
         <div className="container py-2">
@@ -43,40 +45,22 @@ export default class Projects extends Component {
           </a>
         </div>
 
-        <div className="container pb-4">
+        <div className="container py-4 text-center features">
           <h2>About Project</h2>
           <p>{project.description}</p>
         </div>
 
-        <div className="container pb-4">
-          <h3>Role</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit,
-            dicta?
-          </p>
-        </div>
-        <div className="container pb-4">
-          <h3>Project Difficulties</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit,
-            dicta?
-          </p>
-        </div>
-        <div className="container pb-4">
-          <h3>Solution</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit,
-            dicta?
-          </p>
-        </div>
-        <div className="container pb-4">
+       
+       
+        <div className="container pb-4 text-center">
           <h3>Notable Features</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Responsive</li>
-            <li>Lightbox Gallery</li>
+          <ul >
+          
+              <li className="list-unstyled">
+                {project.features}
+              </li>
+           
+         
           </ul>
         </div>
 
