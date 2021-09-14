@@ -41,7 +41,7 @@ const SkillsSection = () => {
             {skills.map((data, key) => {
               return (
                 <div key={key}>
-                  <img src={data.image} />
+                  <img src={data.image} alt=""/>
 
                   <h3>{data.title}</h3>
 

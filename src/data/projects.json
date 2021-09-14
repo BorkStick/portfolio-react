@@ -2,43 +2,52 @@
   "projects": [
     {
       "id": 1,
-      "title": "Project 1",
-      "slug": "project-1",
+      "title": "succulent",
+      "slug": "succulent",
       "description": "A basic HTML landing page for use for my portfolio",
-      "image": "../../src/assets/img/projects/succulent.png",
+      "image": "https://github.com/BorkStick/succulent-page/blob/main/img/succulent.png?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
+      "features": ["HTML", "CSS"],
       "code": "https://github.com/BorkStick/succulent-page",
-      "demo": "https://borkstick.github.io/succulent-page/"
+      "demo": "https://borkstick.github.io/succulent-page/",
+      "featured": true
     },
     {
       "id": 2,
-      "title": "Project 2",
-      "slug": "project-2",
-      "description": "Lorem Ipsum",
-      "image": "https://picsum.photos/500",
+      "title": "Tip Calculator",
+      "slug": "tip-calculator",
+      "description": "A page used to calculate the tip amount for a person or group of persons.",
+      "image": "https://github.com/JaimieGarcia/Tip-Calculator-Project/blob/main/assets/img/tip-calculator.png?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
-      "code": "https://google.com",
-      "demo": "https://google.com"
+      "features": ["HTML", "CSS", "JavaScript"],
+      "code": "https://github.com/JaimieGarcia/Tip-Calculator-Project",
+      "demo": "https://jaimiegarcia.github.io/Tip-Calculator-Project/",
+      "featured": true
     },
     {
       "id": 3,
-      "title": "Project 3",
-      "slug": "project-3",
-      "description": "Lorem Ipsum",
-      "image": "https://picsum.photos/500",
+      "title": "Password Generator",
+      "slug": "password-gen",
+      "description": "A random password generator written in JavaScript",
+      "image": "https://github.com/BorkStick/password-gen/blob/master/screenshot.gif?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
-      "code": "https://google.com",
-      "demo": "https://google.com"
+      "features": ["HTML", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/password-gen",
+      "demo": "https://borkstick.github.io/password-gen/",
+      "featured": true
     },
     {
       "id": 4,
-      "title": "Project 4",
-      "slug": "project-4",
-      "description": "Lorem Ipsum",
-      "image": "https://picsum.photos/500",
+      "title": "dracula-color-palette",
+      "slug": "dracula-color-palette",
+      "description": "Got tired of having to open up the dracula theme repo to grab the hex colors, so I made a app using react and react-copy-to-clipboard to display the dracula theme colors and add them to the clipboard when the color is clicked.",
+      "image": "https://github.com/BorkStick/dracula-color-palette/blob/main/public/screenshot.png?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
-      "code": "https://google.com",
-      "demo": "https://google.com"
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/dracula-color-palette",
+      "demo": "https://borkstick.github.io/dracula-color-palette/",
+      "featured": false
+
     }
   ]
 }

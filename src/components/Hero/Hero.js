@@ -6,14 +6,14 @@ const Hero = () => {
   return (
     <div className="container">
       <section>
-        <div class="container py-5 text-center" id="name">
+        <div className="container py-5 text-center" id="name">
           <h1 className="primary-headline">TYLOR WURZ</h1>
           <h3 className="section-headline">Full-Stack Web Developer</h3>
         </div>
-        <div class="container-fluid" id="home">
-          <div class="row">
-            <img src={test} alt="" class="col" id="hero-img" />
-            <p class="col">
+        <div className="container-fluid" id="home">
+          <div className="row">
+            <img src={test} alt="" className="col" id="hero-img" />
+            <p className="col">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
               quisquam sit quo? Rem, reiciendis officia natus animi, esse, sunt
               quidem eos est adipisci tenetur quaerat repellat ipsa enim qui

@@ -1,13 +1,13 @@
 import React from "react";
-import "./Header.css";
+import "./Navbar.css";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg  sticky-top" id="top">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg  sticky-top" id="top">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -15,46 +15,46 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-center"
+            className="collapse navbar-collapse justify-content-center"
             id="navbarNav"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/skills">
+              <li className="nav-item">
+                <a className="nav-link" href="/skills">
                   Skills
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/projects">
+              <li className="nav-item">
+                <a className="nav-link" href="/projects">
                   Projects
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">
+              <li className="nav-item">
+                <a className="nav-link" href="/contact">
                   Contact
                 </a>
               </li>
             </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item">
+            <ul className="navbar-nav">
+              <li className="nav-item">
                 <a
-                  class="nav-link"
+                  className="nav-link"
                   aria-current="page"
                   href="https://borkstick.github.io/html-resume/"
                 >
                   CV
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/borkstick">
+              <li className="nav-item">
+                <a className="nav-link" href="https://github.com/borkstick">
                   Github
                 </a>
               </li>
@@ -66,4 +66,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

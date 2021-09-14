@@ -9,7 +9,7 @@ const ContactSection = () => {
           <h1 className="section-headline">Contact</h1>
           <form className="px-5">
             <div className="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
+              <label>Email address</label>
               <input
                 type="email"
                 className="form-control"
@@ -18,7 +18,7 @@ const ContactSection = () => {
               />
             </div>
             <div className="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <label>Example textarea</label>
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"

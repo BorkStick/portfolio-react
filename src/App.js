@@ -5,7 +5,7 @@ import About from "./pages/About.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
 import Contact from "./pages/Contact.jsx";
 import Projects from "./components/Projects/Projects";
-import Nav from "./components/Header/Header";
+import Nav from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 function App() {

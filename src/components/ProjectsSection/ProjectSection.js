@@ -1,10 +1,6 @@
 import React from "react";
 import "./ProjectSection.css";
-import Project from "../Projects/Projects";
-import succulentimg from "../../assets/img/projects/succulent.png";
-import tipimg from "../../assets/img/projects/tip-calculator.png";
-import todoimg from "../../assets/img/projects/todo-list.gif";
-import data from "../../data/data";
+import { Link } from "react-router-dom";
 
 const ProjectSection = () => {
   return (
@@ -18,13 +14,19 @@ const ProjectSection = () => {
       <div className="container py-5  ">
         <div className="row">
           <div className="card col">
-            <Project img={succulentimg} title="succulant" />
+          <Link className="text-center" to="/projects/succulent"> 
+            <h1>Project 1</h1>
+          </Link>
           </div>
           <div className="card col">
-            <Project img={tipimg} title="tip calculator" />
+          <Link className="text-center" to="/projects/project-2"> 
+            <h1>Project 2</h1>
+          </Link>
           </div>
           <div className="card col">
-            <Project img={todoimg} title="todo list" />
+          <Link className="text-center" to="/projects/project-3"> 
+            <h1>Project 3</h1>
+          </Link>
           </div>
         </div>
       </div>

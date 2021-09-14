@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Header/Header";
+import Nav from "../components/Navbar/Navbar";
 
 const About = () => {
   return (

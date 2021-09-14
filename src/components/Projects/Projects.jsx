@@ -3,26 +3,23 @@ import React, { Component } from "react";
 import data from "../../data/projects.json";
 
 export default class Projects extends Component {
-  constructor(props) {
-    super(props);
-  }
+  
 
   render() {
     const project = data.projects.find((p) => p.slug === this.props.slug);
 
     return (
-      <div classNameName="container">
+      <div className="container">
        
 
         <div className="container">
-          {/* <h1>{project.title}</h1> */}
+          <h1>{project.title}</h1>
         </div>
 
         <div className="container py-2">
           <img
-            // src={project.image}
+            src={project.image}
             alt=""
-            srcset=""
             width="100%"
           />
         </div>
@@ -32,7 +29,7 @@ export default class Projects extends Component {
             className="btn btn-dark"
             id="website-button"
             type="button"
-            // href={project.demo}
+            href={project.demo}
           >
             Live Demo
           </a>
@@ -40,7 +37,7 @@ export default class Projects extends Component {
             className="btn btn-secondary"
             id="github-button"
             type="button"
-            // href={project.code}
+            href={project.code}
           >
             Code
           </a>
@@ -48,7 +45,7 @@ export default class Projects extends Component {
 
         <div className="container pb-4">
           <h2>About Project</h2>
-          {/* <p>{project.description}</p> */}
+          <p>{project.description}</p>
         </div>
 
         <div className="container pb-4">
@@ -88,24 +85,24 @@ export default class Projects extends Component {
           <h2>Tech Used</h2>
           <ul className="d-flex justify-content-center pt-2">
             <li>
-              <a href="" className="badge">
+              <p className="badge">
                 HTML
-              </a>
+              </p>
             </li>
             <li>
-              <a href="" className="badge">
+              <p className="badge">
                 CSS
-              </a>
+              </p>
             </li>
             <li>
-              <a href="" className="badge">
+              <p className="badge">
                 Bootstrap
-              </a>
+              </p>
             </li>
             <li>
-              <a href="" className="badge">
+              <p  className="badge">
                 Git
-              </a>
+              </p>
             </li>
           </ul>
         </div>
