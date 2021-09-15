@@ -22,7 +22,7 @@ export default function ProjectPage() {
             <div key={key} className="pb-4">
               <Link
                 to={`/projects/${data.slug}`}
-                className="unstyled"
+                className="link-unstyled"
                 id="product-grid-link"
               >
                 <div className="card">

@@ -47,7 +47,105 @@
       "code": "https://github.com/BorkStick/dracula-color-palette",
       "demo": "https://borkstick.github.io/dracula-color-palette/",
       "featured": false
+    },
+    {
+      "id": 5,
+      "title": "contact-manager-react",
+      "slug": "contact-manager-react",
+      "description": "A simple react app to manage contacts",
+      "image": "http://tylor.tech/wp-content/uploads/2019/08/Oxb6Eq6v64.gif",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/contact-manager-react",
+      "demo": "https://borkstick.github.io/contact-manager-react/",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Okta Authentication - React",
+      "slug": "okta-authentication-react",
+      "description": "A basic React app allowing users to login and access protected pages. It uses Okta to authenticate the users.",
+      "image": "http://tylor.tech/wp-content/uploads/2020/02/qge0rc8rBZ.gif",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "IP Lookup - Vue",
+      "slug": "ip-lookup-vue",
+      "description": "Got tired of having to open up the dracula theme repo to grab the hex colors, so I made a app using react and react-copy-to-clipboard to display the dracula theme colors and add them to the clipboard when the color is clicked.",
+      "image": "http://tylor.tech/wp-content/uploads/2019/08/firefox_2gAm9CWefk.png",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/ip-lookup-vue",
+      "demo": "https://aqueous-island-27263.herokuapp.com/",
+      "featured": false
 
+    },
+    {
+      "id": 8,
+      "title": "Apex Stats - Vue",
+      "slug": "apex-stats-vue",
+      "description": "An Vue.js app that allows you to search Apex Legends player statistics, deployed to Heroku",
+      "image": "http://tylor.tech/wp-content/uploads/2019/08/50AOJKmoXM.gif",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/apex-stats",
+      "demo": "https://lit-tundra-77810.herokuapp.com/",
+      "featured": false
+
+    },
+    {
+      "id": 9,
+      "title": "User Search - React",
+      "slug": "user-search-react",
+      "description": "An app that pulls users from an API and displays them,so they can be searched",
+      "image": "http://tylor.tech/wp-content/uploads/2019/07/AsPowerBar_ExwkOJCmS2.png",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "",
+      "demo": "https://user-search-react.herokuapp.com/",
+      "featured": false
+
+    },
+    {
+      "id": 10,
+      "title": "Druid Game",
+      "slug": "druid-game",
+      "description": "Druid that goes around clearing the taint from the forests of the world and balances the magics / creatures of the forest as to prevent the END OF ALL",
+      "image": "https://github.com/BorkStick/druid-game/raw/main/ART/Progress/grass-and-layers.gif",
+      "tags": ["Unity", "C#"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/druid-game",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "StartMenu2D Unity",
+      "slug": "start-menu-2D-unity",
+      "description": "A basic start menu for a game",
+      "image": "https://github.com/BorkStick/StartMenu2D-Unity/raw/main/ART/screenshot.gif",
+      "tags": ["Unity", "C#"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/druid-game",
+      "demo": "",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "whats-my-ip",
+      "slug": "whats-my-ip",
+      "description": "A clone of the google whatsmyip",
+      "image": "https://github.com/BorkStick/whats-my-ip/raw/master/screenshot.png",
+      "tags": ["Unity", "C#"],
+      "features": ["React", "CSS", "JavaScript"],
+      "code": "https://github.com/BorkStick/whats-my-ip/",
+      "demo": "https://borkstick.github.io/whats-my-ip/",
+      "featured": false
     }
   ]
 }
