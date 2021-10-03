@@ -12,6 +12,7 @@ const ContactSection = () => {
               <label>Email address</label>
               <input
                 type="email"
+                name="email"
                 className="form-control"
                 id="exampleFormControlInput1"
                 placeholder="name@example.com"
@@ -20,6 +21,7 @@ const ContactSection = () => {
             <div className="form-group">
               <label>Example textarea</label>
               <textarea
+              name="message"
                 className="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"

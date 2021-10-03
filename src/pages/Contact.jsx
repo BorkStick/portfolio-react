@@ -3,7 +3,6 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-     
       <div className="row">
         <div className="col">
           <h1>Contact Me</h1>
@@ -12,15 +11,17 @@ const Contact = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <form action="">
+        <form action="https://formsubmit.co/4614eda7978c8a89c22c4e4063d08df0" method="POST">
           <input
             type="text"
+            name="name"
             className="form-control"
             id="exampleFormControlInput1"
             placeholder="Name"
           />
           <input
             type="email"
+            name="email"
             className="form-control"
             id="exampleFormControlInput1"
             placeholder="Email"
@@ -28,6 +29,7 @@ const Contact = () => {
 
           <input
             type="text"
+            name="subject"
             className="form-control"
             id="exampleFormControlInput1"
             placeholder="Subject"
@@ -36,6 +38,7 @@ const Contact = () => {
           <div className="form-group">
             <textarea
               className="form-control"
+              name="message"
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Message"
