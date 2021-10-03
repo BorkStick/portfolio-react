@@ -1,5 +1,5 @@
 import React from "react";
-import test from "../../assets/img/borkstick300.gif";
+import test from "../../assets/images/borkstick300.gif";
 import "./Hero.css";
 
 const Hero = () => {

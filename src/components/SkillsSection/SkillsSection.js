@@ -1,9 +1,9 @@
 import React from "react";
 import Skill from "../Skill/Skill";
 import "./SkillsSection.css";
-import htmlimg from "../../assets/img/HTML5_logo_and_wordmark.svg";
-import cssimg from "../../assets/img/CSS3_logo_and_wordmark.svg";
-import jsimg from "../../assets/img/Javascript_badge.svg";
+import htmlimg from "../../assets/images/HTML5_logo_and_wordmark.svg";
+import cssimg from "../../assets/images/CSS3_logo_and_wordmark.svg";
+import jsimg from "../../assets/images/Javascript_badge.svg";
 import { skills } from "../../data/skills.json";
 
 const SkillsSection = () => {

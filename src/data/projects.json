@@ -8,8 +8,8 @@
       "image": "https://github.com/BorkStick/succulent-page/blob/main/img/succulent.png?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["HTML", "CSS"],
-      "code": "https://github.com/BorkStick/succulent-page",
       "demo": "https://borkstick.github.io/succulent-page/",
+      "code": "https://github.com/BorkStick/succulent-page",
       "featured": true
     },
     {
@@ -20,8 +20,8 @@
       "image": "https://github.com/JaimieGarcia/Tip-Calculator-Project/blob/main/assets/img/tip-calculator.png?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["HTML", "CSS", "JavaScript"],
-      "code": "https://github.com/JaimieGarcia/Tip-Calculator-Project",
       "demo": "https://jaimiegarcia.github.io/Tip-Calculator-Project/",
+      "code": "https://github.com/JaimieGarcia/Tip-Calculator-Project",
       "featured": true
     },
     {
@@ -32,8 +32,8 @@
       "image": "https://github.com/BorkStick/password-gen/blob/master/screenshot.gif?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["HTML", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/password-gen",
       "demo": "https://borkstick.github.io/password-gen/",
+      "code": "https://github.com/BorkStick/password-gen",
       "featured": true
     },
     {
@@ -44,8 +44,8 @@
       "image": "https://github.com/BorkStick/dracula-color-palette/blob/main/public/screenshot.png?raw=true",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/dracula-color-palette",
       "demo": "https://borkstick.github.io/dracula-color-palette/",
+      "code": "https://github.com/BorkStick/dracula-color-palette",
       "featured": false
     },
     {
@@ -56,8 +56,8 @@
       "image": "http://tylor.tech/wp-content/uploads/2019/08/Oxb6Eq6v64.gif",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/contact-manager-react",
       "demo": "https://borkstick.github.io/contact-manager-react/",
+      "code": "https://github.com/BorkStick/contact-manager-react",
       "featured": false
     },
     {
@@ -68,8 +68,8 @@
       "image": "http://tylor.tech/wp-content/uploads/2020/02/qge0rc8rBZ.gif",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "",
       "demo": "",
+      "code": "",
       "featured": false
     },
     {
@@ -80,8 +80,8 @@
       "image": "http://tylor.tech/wp-content/uploads/2019/08/firefox_2gAm9CWefk.png",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/ip-lookup-vue",
       "demo": "https://aqueous-island-27263.herokuapp.com/",
+      "code": "https://github.com/BorkStick/ip-lookup-vue",
       "featured": false
 
     },
@@ -93,8 +93,8 @@
       "image": "http://tylor.tech/wp-content/uploads/2019/08/50AOJKmoXM.gif",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/apex-stats",
       "demo": "https://lit-tundra-77810.herokuapp.com/",
+      "code": "https://github.com/BorkStick/apex-stats",
       "featured": false
 
     },
@@ -106,8 +106,8 @@
       "image": "http://tylor.tech/wp-content/uploads/2019/07/AsPowerBar_ExwkOJCmS2.png",
       "tags": ["HTML", "CSS", "JavaScript"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "",
       "demo": "https://user-search-react.herokuapp.com/",
+      "code": "",
       "featured": false
 
     },
@@ -119,8 +119,8 @@
       "image": "https://github.com/BorkStick/druid-game/raw/main/ART/Progress/grass-and-layers.gif",
       "tags": ["Unity", "C#"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/druid-game",
       "demo": "",
+      "code": "https://github.com/BorkStick/druid-game",
       "featured": false
     },
     {
@@ -131,8 +131,8 @@
       "image": "https://github.com/BorkStick/StartMenu2D-Unity/raw/main/ART/screenshot.gif",
       "tags": ["Unity", "C#"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/druid-game",
       "demo": "",
+      "code": "https://github.com/BorkStick/druid-game",
       "featured": false
     },
     {
@@ -143,9 +143,95 @@
       "image": "https://github.com/BorkStick/whats-my-ip/raw/master/screenshot.png",
       "tags": ["Unity", "C#"],
       "features": ["React", "CSS", "JavaScript"],
-      "code": "https://github.com/BorkStick/whats-my-ip/",
       "demo": "https://borkstick.github.io/whats-my-ip/",
+      "code": "https://github.com/BorkStick/whats-my-ip/",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "start-page",
+      "slug": "start-page",
+      "description": "A clone of the google whatsmyip",
+      "image": "https://github.com/BorkStick/start-page/blob/master/img/start-page.png?raw=true",
+      "tags": ["HTML", "CSS"],
+      "features": ["React", "CSS", "JavaScript"],
+      "demo": "https://borkstick.github.io/start-page",
+      "code": "https://github.com/BorkStick/start-page",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "borkhost-404-page",
+      "slug": "borkhost-404-page",
+      "description": "Custom 404 page for my webhosting company.",
+      "image": "https://github.com/BorkStick/borkhost-404-page/blob/main/img/borkhost-404-page.gif?raw=true",
+      "tags": ["HTML", "CSS"],
+      "features": ["React", "CSS", "JavaScript"],
+      "demo": "https://borkstick.github.io/borkhost-404-page",
+      "code": "https://github.com/BorkStick/borkhost-404-page",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "title": "content-placeholder",
+      "slug": "content-placeholder",
+      "description": "Custom 404 page for my webhosting company.",
+      "image": "https://github.com/BorkStick/html-css-js/blob/main/content-placeholder/img/content-placeholder.png?raw=true",
+      "tags": ["HTML", "CSS"],
+      "features": ["React", "CSS", "JavaScript"],
+      "demo": "https://borkstick.github.io/html-css-js/content-placeholder/",
+      "code": "https://github.com/BorkStick/html-css-js/tree/main/content-placeholder",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "title": "form-validator",
+      "slug": "form-validator",
+      "description": "Form valadation using JavaScript",
+      "image": "https://github.com/BorkStick/20-JavaScript-Projects/blob/master/1-form-validator/img/form-validator.png?raw=true",
+      "tags": ["HTML", "CSS"],
+      "features": ["React", "CSS"],
+      "demo": "https://borkstick.github.io/20-JavaScript-Projects/%201%20Form%20Validator/",
+      "code": "https://github.com/borkstick/20-JavaScript-Projects/%201%20Form%20Validator/",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "title": "social-links",
+      "slug": "social-links",
+      "description": "A linktree clone to share links to all my social sites",
+      "image": "https://github.com/BorkStick/social-links/blob/main/assets/img/social-links.png?raw=true",
+      "tags": ["HTML", "CSS"],
+      "features": ["HTML", "CSS"],
+      "demo": "https://borkstick.github.io/social-links",
+      "code": "https://github.com/BorkStick/social-links",
+      "featured": false
+    },
+    {
+      "id": 100,
+      "title": "my-movies-react",
+      "slug": "my-movies-react",
+      "description": "DESCRIPTION HERE",
+      "image": "",
+      "tags": ["HTML", "CSS"],
+      "features": ["HTML", "CSS"],
+      "demo": "https://borkstick.github.io/",
+      "code": "https://github.com/BorkStick/",
+      "featured": false
+    },
+    {
+      "id": 100,
+      "title": "title-here",
+      "slug": "slug-here",
+      "description": "DESCRIPTION HERE",
+      "image": "",
+      "tags": ["HTML", "CSS"],
+      "features": ["HTML", "CSS"],
+      "demo": "https://borkstick.github.io/",
+      "code": "https://github.com/BorkStick/",
       "featured": false
     }
+
+
   ]
 }
