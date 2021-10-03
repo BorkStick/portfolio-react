@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
-import ProjectsPage from "./pages/ProjectsPage.jsx";
-import Contact from "./pages/Contact.jsx";
+import Home from "./pages/home.jsx";
+import About from "./pages/about.jsx";
+import ProjectsPage from "./pages/projects-page.jsx";
+import Contact from "./pages/contact.jsx";
 import Projects from "./components/Projects/Projects";
 import Nav from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import './App.css'
 
 function App() {
   return (
