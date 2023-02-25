@@ -1,9 +1,9 @@
 import React from "react";
 import Skill from "../Skill/Skill";
 import "./SkillsSection.css";
-import htmlimg from "../../assets/images/HTML5_logo_and_wordmark.svg";
-import cssimg from "../../assets/images/CSS3_logo_and_wordmark.svg";
-import jsimg from "../../assets/images/Javascript_badge.svg";
+import htmlimg from "../../assets/images/tylor in front of rack 2023.jpg";
+import cssimg from "../../assets/images/tylor in front of rack 2023.jpg";
+import jsimg from "../../assets/images/tylor in front of rack 2023.jpg";
 import { skills } from "../../data/skills.json";
 
 const SkillsSection = () => {
@@ -41,7 +41,7 @@ const SkillsSection = () => {
             {skills.map((data, key) => {
               return (
                 <div key={key}>
-                  <img src={data.image} alt=""/>
+                  <img src={data.image} alt="" />
 
                   <h3>{data.title}</h3>
 
